@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Apna Ghar Ashram</string>
+
+    <string name="Home">Home</string>
+    <string name="Username">Username</string>
+    <string name="Feed">Feed</string>
+    <string name="Donate">Donate</string>
+    <string name="AboutUs">About Us</string>
+    <string name="MyProfile">My Profile</string>
+
+    <string name="wearehere">We are here just because of you...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

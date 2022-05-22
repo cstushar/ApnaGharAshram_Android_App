@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        drawable="@drawable/homecolor"
+        text="@string/Home" />
+    <tab
+        drawable="@drawable/team"
+        text="@string/Feed" />
+    <tab
+        drawable="@drawable/lovelogo"
+        text="@string/Donate" />
+    <tab
+        drawable="@drawable/branch"
+        text="@string/AboutUs" />
+    <tab
+        drawable="@drawable/myprofile"
+        text="@string/MyProfile" />
+
+</tabs>
