@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApnaGharAshram">
         <activity
+            android:name=".issue_complain"
+            android:exported="false" />
+        <activity
             android:name=".Donate_money"
             android:exported="false" />
         <activity
