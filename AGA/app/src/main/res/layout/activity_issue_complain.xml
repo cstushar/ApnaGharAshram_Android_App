@@ -39,7 +39,7 @@
             android:layout_margin="32dp"
             android:ems="10"
             android:hint="Phone No./Email Address"
-            android:inputType="textPersonName"
+            android:inputType="phone|textEmailSubject"
             android:minHeight="48dp" />
 
         <EditText

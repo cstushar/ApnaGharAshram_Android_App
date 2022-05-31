@@ -9,8 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApnaGharAshram">
         <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
             android:name=".issue_complain"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
