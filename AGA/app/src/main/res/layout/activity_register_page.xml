@@ -107,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/register_confirm_password" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/register_t_c"
         android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
@@ -118,31 +118,33 @@
         app:layout_constraintTop_toBottomOf="@+id/register_create" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/register_existing_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="80dp"
         android:layout_marginBottom="110dp"
         android:text="Existing user?"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/register_sign_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        app:layout_constraintTop_toBottomOf="@+id/register_t_c" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/register_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="110dp"
         android:text="Sign In"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/register_existing_user"
+        app:layout_constraintTop_toBottomOf="@+id/register_t_c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
