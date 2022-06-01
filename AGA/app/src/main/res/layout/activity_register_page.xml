@@ -111,7 +111,7 @@
         android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text="By Creating an account, II accept AGA's Terms of Services & Privacy Policy."
+        android:text="By Creating an account, II accept AGA's Terms of Services and Privacy Policy."
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
